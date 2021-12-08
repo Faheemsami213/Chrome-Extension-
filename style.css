@@ -1,0 +1,69 @@
+body{
+margin:2px;
+padding:10px;
+border:4px solid rgb(30, 32, 124);
+border-radius: 6px;
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+min-width: 30vh;
+
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../Fonts/Lato-Regular.ttf');
+}
+#input-el{
+    width: 100%;
+    height:25px;
+    border:none;
+    border-radius:6px;
+    background:#2a579b;
+    color:#f389c5;
+    font-size: 16px ;
+
+
+}
+#button-wrappers{
+    margin-top:10px;
+    width:100%;
+}
+#save-btn{
+    width:100px;
+    padding:6px 0;
+    border:none;
+    border-radius: 1px solid  rgb(30, 32, 124);
+    font-weight: bold;
+    font-size:14px;
+    background-color:rgb(216, 124, 201);
+    color:white;
+}
+#delete-btn{
+    width:100px;
+    padding:8px 0;
+    border:none;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size:14px;
+    color:white;
+    background-image: linear-gradient( to right,rgb(216, 120, 179),rgb(143, 128, 201));
+}
+#tab-btn{
+    width:90px;
+    padding:6px 0;
+    border-radius: 2px;
+
+    border:4px solid rgb(173, 143, 221);
+    font-size:14px;
+    font-weight: bold;
+    color:rgb(29, 77, 133);
+}
+li{
+    list-style:none;
+}
+li a{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
